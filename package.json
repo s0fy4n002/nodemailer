@@ -1,0 +1,10 @@
+{
+  "name": "nodemailer-belajar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "nodemailer": "^6.9.1"
+  }
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>List Users</title>
+  
+  </head>
+  <body>
+    <h1 style="color: rgb(89, 103, 184);">Daftar User!</h1>
+    <table style="width: 100%;" border="1" class="table table-bordered table-hover">
+      <thead>
+        <tr>
+          <th style="width: 10%;">No</th>
+          <th style="width: 40%;">Nama</th>
+          <th style="width: 40%;">Alamat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% data.forEach(function(user,index){ %>
+          <tr>
+            <td><%= ++index %></td>
+            <td><%= user.nama %></td>
+            <td><%= user.alamat %></td>
+          </tr>
+        <% }); %>
+  
+      </tbody>
+    </table>
+  </body>
+</html>
